@@ -13,6 +13,7 @@
 		96A032F01B4812140099A353 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96A032EF1B4812140099A353 /* Images.xcassets */; };
 		96A032F31B4812140099A353 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96A032F11B4812140099A353 /* LaunchScreen.xib */; };
 		96A032FF1B4812140099A353 /* JEWebViewControllerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A032FE1B4812140099A353 /* JEWebViewControllerDemoTests.swift */; };
+		96A033091B4812280099A353 /* JEWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A033081B4812280099A353 /* JEWebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		96A032F81B4812140099A353 /* JEWebViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JEWebViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A032FD1B4812140099A353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96A032FE1B4812140099A353 /* JEWebViewControllerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JEWebViewControllerDemoTests.swift; sourceTree = "<group>"; };
+		96A033081B4812280099A353 /* JEWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JEWebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				96A032E81B4812140099A353 /* AppDelegate.swift */,
 				96A032EA1B4812140099A353 /* ViewController.swift */,
+				96A033081B4812280099A353 /* JEWebViewController.swift */,
 				96A032EC1B4812140099A353 /* Main.storyboard */,
 				96A032EF1B4812140099A353 /* Images.xcassets */,
 				96A032F11B4812140099A353 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96A032EB1B4812140099A353 /* ViewController.swift in Sources */,
+				96A033091B4812280099A353 /* JEWebViewController.swift in Sources */,
 				96A032E91B4812140099A353 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
