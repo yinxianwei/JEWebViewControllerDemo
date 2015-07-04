@@ -25,12 +25,14 @@ class JEWebViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.whiteColor()
         
         initWebView()
     }
     
     func initWebView(){
+        self.view.backgroundColor = UIColor.whiteColor()
+        self.navigationController?.navigationBar.translucent = false
+        
         self.webView = WKWebView()
         webView.setTranslatesAutoresizingMaskIntoConstraints(false)
         self.view.addSubview(self.webView)
